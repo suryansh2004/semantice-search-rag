@@ -1,0 +1,15 @@
+{"query":"How does semantic search find documents when the words are different?","relevant_ids":["kb-001"]}
+{"query":"Which embedding model should I choose for a low-latency prototype?","relevant_ids":["kb-002"]}
+{"query":"What steps should an ingestion pipeline perform before writing an index?","relevant_ids":["kb-003"]}
+{"query":"How do chunk size and overlap affect retrieval quality?","relevant_ids":["kb-004"]}
+{"query":"When should I move from local FAISS to a separate vector database?","relevant_ids":["kb-005","kb-019"]}
+{"query":"How can I measure whether relevant documents appear in the top results?","relevant_ids":["kb-006"]}
+{"query":"Why should RAG answers cite sources?","relevant_ids":["kb-007"]}
+{"query":"How should expensive models be loaded in a FastAPI service?","relevant_ids":["kb-008"]}
+{"query":"What is the difference between health and readiness endpoints?","relevant_ids":["kb-009","kb-017"]}
+{"query":"How can I deploy this service with Docker?","relevant_ids":["kb-010","kb-011"]}
+{"query":"What should I do if Hugging Face downloads are blocked in production?","relevant_ids":["kb-012"]}
+{"query":"Which search metrics and logs help improve the knowledge base?","relevant_ids":["kb-013"]}
+{"query":"How do I prevent private documents from leaking through retrieval?","relevant_ids":["kb-014"]}
+{"query":"What metadata should be saved with an index build?","relevant_ids":["kb-015"]}
+{"query":"How should evaluation queries be designed for a realistic RAG system?","relevant_ids":["kb-018"]}

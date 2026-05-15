@@ -1,0 +1,9 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "documents": 20,
+  "chunks": 20,
+  "backend": "faiss",
+  "chunk_size": 450,
+  "chunk_overlap": 80,
+  "created_at": "2026-05-15T04:07:41.860223+00:00"
+}

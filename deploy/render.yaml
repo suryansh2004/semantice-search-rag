@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: semantic-search-rag
+    env: docker
+    plan: starter
+    healthCheckPath: /ready
+    envVars:
+      - key: RAG_INDEX_DIR
+        value: /app/artifacts/index
+      - key: RAG_EMBEDDING_MODEL
+        value: sentence-transformers/all-MiniLM-L6-v2

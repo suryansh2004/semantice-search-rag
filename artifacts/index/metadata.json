@@ -1,0 +1,5 @@
+{
+  "backend": "faiss",
+  "embedding_dim": 384,
+  "num_chunks": 20
+}

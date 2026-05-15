@@ -1,0 +1,13 @@
+services:
+  rag-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      RAG_INDEX_DIR: /app/artifacts/index
+      RAG_EMBEDDING_MODEL: sentence-transformers/all-MiniLM-L6-v2
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready').read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
