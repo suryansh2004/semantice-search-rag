@@ -160,12 +160,4 @@ Evaluation queries are JSONL:
 
 ```bash
 pytest -q
-```
-
-## Next Production Steps
-
-- Replace the simple templated answer with an LLM generation step that cites retrieved chunks.
-- Add a BM25 or hybrid retrieval baseline.
-- Move vectors to Qdrant, Chroma, pgvector, or a managed vector database for live updates.
-- Add authentication and document-level access control.
-- Track evaluation runs in MLflow or a lightweight metrics table.
+```          
